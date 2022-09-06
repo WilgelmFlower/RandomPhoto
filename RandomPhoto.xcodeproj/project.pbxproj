@@ -13,6 +13,8 @@
 		EDB3B34E28931BE000C425AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB3B34C28931BE000C425AA /* Main.storyboard */; };
 		EDB3B35028931BE100C425AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB3B34F28931BE100C425AA /* Assets.xcassets */; };
 		EDB3B35328931BE100C425AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB3B35128931BE100C425AA /* LaunchScreen.storyboard */; };
+		EDC667D8289803FA0093A0BC /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC667D7289803FA0093A0BC /* MusicModel.swift */; };
+		EDCDFB932897FFC300494C77 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDCDFB922897FFC300494C77 /* audio.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EDB3B34F28931BE100C425AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDB3B35228931BE100C425AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDB3B35428931BE100C425AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC667D7289803FA0093A0BC /* MusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
+		EDCDFB922897FFC300494C77 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				EDB3B34628931BE000C425AA /* AppDelegate.swift */,
 				EDB3B34828931BE000C425AA /* SceneDelegate.swift */,
 				EDB3B34A28931BE000C425AA /* ViewController.swift */,
+				EDC667D7289803FA0093A0BC /* MusicModel.swift */,
 				EDB3B34C28931BE000C425AA /* Main.storyboard */,
 				EDB3B34F28931BE100C425AA /* Assets.xcassets */,
 				EDB3B35128931BE100C425AA /* LaunchScreen.storyboard */,
 				EDB3B35428931BE100C425AA /* Info.plist */,
+				EDCDFB922897FFC300494C77 /* audio.mp3 */,
 			);
 			path = RandomPhoto;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDB3B35328931BE100C425AA /* LaunchScreen.storyboard in Resources */,
+				EDCDFB932897FFC300494C77 /* audio.mp3 in Resources */,
 				EDB3B35028931BE100C425AA /* Assets.xcassets in Resources */,
 				EDB3B34E28931BE000C425AA /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDB3B34B28931BE000C425AA /* ViewController.swift in Sources */,
+				EDC667D8289803FA0093A0BC /* MusicModel.swift in Sources */,
 				EDB3B34728931BE000C425AA /* AppDelegate.swift in Sources */,
 				EDB3B34928931BE000C425AA /* SceneDelegate.swift in Sources */,
 			);
@@ -293,6 +301,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +313,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,6 +330,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +342,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
